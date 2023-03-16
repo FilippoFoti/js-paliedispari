@@ -19,7 +19,7 @@ function revertWord(wordRevert) {
 }
 
 // Risposta
-if (userWord === revertWord(userWord)){
+if (userWord === revertWord(userWord)) {
     console.log("Complimenti, la tua parola è palindroma :)");
 } else {
     console.log("Peccato, la tua parola non è palindroma :(");
